@@ -8,9 +8,6 @@ import android.net.Uri;
 import android.view.View;
 import android.widget.Button;
 
-/**
- * Created by diogo on 05/12/2016.
- */
 
 public class RatemyAppDialog extends Dialog {
 
@@ -22,7 +19,10 @@ public class RatemyAppDialog extends Dialog {
     public static void Initialize(final Context context){
         final RatemyAppDialog ratemyAppDialog  = new RatemyAppDialog(context);
         ratemyAppDialog.setContentView(R.layout.diaog_ratemyapp);
-
+        int i = 0;
+        i++;
+        i--;
+        i++;
         final Button rate = (Button) ratemyAppDialog.findViewById(R.id.rateus);
         rate.setOnClickListener(new View.OnClickListener() {
             @Override
